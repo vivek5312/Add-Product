@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+form{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+label{
+    color:darkblue;
+    font-size: 25px;
+  
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: azure;
+    width: 15rem;
+    height: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+  
+    padding: 5px;
+}
+.submit{
+    width:12rem;
+    height: 60px;
+    margin: 10px;
+    background-color: rgb(214, 225, 211);
+    font-size: 25px;
+    font-weight: 600px;
+}
